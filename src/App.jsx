@@ -28,8 +28,7 @@ function App() {
             <>            
               <section className='data_container'>
                 <div className='div_icon'>
-                  <p>{isCelsius 
-                      ? weather.temperature.celsius.toFixed(0) : weather.temperature.farenheit.toFixed(0)}°{isCelsius ? "C" : "F"}
+                  <p>{isCelsius ? weather.temperature.celsius.toFixed(0) : weather.temperature.farenheit.toFixed(0)}°{isCelsius ? "C" : "F"}
                   </p>
                   <img src={weather.weather.icon} alt={weather.weather.description} />
                 </div>    
