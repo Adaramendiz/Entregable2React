@@ -42,7 +42,7 @@ function App() {
               </section>              
               <button className='button' onClick={()=>setIsCelsius(!isCelsius)}>Change °{isCelsius ? "F" : "C"}</button>
             </>            
-          ) : <p>Loading weather...</p>}            
+          ) : <p>Loading weather...</p>}               
         </body>
     </section>
   )
